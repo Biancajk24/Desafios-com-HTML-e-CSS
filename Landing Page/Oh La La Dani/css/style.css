@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&family=Ubuntu&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #0C1721;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.logo {
+    width: 120px;
+    max-width: 100%;
+    height: auto;
+    margin: 20px 0 30px 780px;
+}
+
+.content {
+    display: flex;
+    width: 80%;
+    margin-left: 40vh;
+    gap: 9vh;
+}
+
+.text-component {
+    justify-content: center;
+    margin-left: 5vh;
+    height: 100%;
+}
+    
+
+.image-1 {
+    width: 55vh;
+    margin-bottom: 2vh;
+}
+
+.info-1 {
+    width: 55vh;
+    text-align: center;
+    font-family: Ubuntu, sans-serif;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+}
+
+.info-note {
+    margin-top: 2vh;
+    margin-bottom: 1vh;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: rgb(196, 181, 181);
+}
+
+.text-data {
+    padding-top: 2vh;
+    padding-bottom: 1vh;
+    text-align: center;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 28px;
+    color: rgb(255, 255, 255);
+}
+
+.text {
+    padding-bottom: 1vh;
+    text-align: center;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 14px;
+    color: #ffffff;
+}
+
+.form {
+    max-width: 45vh;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 2vh;
+    font-family: Source Sans Pro, sans-serif;
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+}
+
+.input {
+    padding: 8px;
+    border-radius: 4px;
+    margin-top: 4px;
+    border: none;
+}
+
+.option-checkbox {
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 16px;
+    color: #ffffff;
+}
+
+.terms {
+    padding-top: 3vh;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 14px;
+    color: #ffffff;
+}
+
+a {
+    color: #ffffff;
+}
+
+.btn-form {
+    justify-content: center;
+    margin-top: 4vh;
+    margin-left: 6vh;
+    padding: 2vh;
+    padding-left: 3vh;
+    padding-right: 3vh;
+    background-color: #d1364f;
+    border: none;
+    border-radius: 35px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-family: Ubuntu, sans-serif;
+    font-size: 22px;
+    text-transform: uppercase;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    width: 100%;
+    background-color:#FFFFFF;
+    gap: 10px;
+}
+
+.text-container {
+    padding-top: 11vh;
+    padding-bottom: 7vh;
+    font-family: Ubuntu, sans-serif;
+    font-size: 32px;
+    color: rgb(21, 63, 100);
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    width: 55vh;
+}

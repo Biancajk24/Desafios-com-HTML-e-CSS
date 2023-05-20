@@ -1,0 +1,108 @@
+:root {
+    --black: #000000;
+    --box-shadow: #bbbbbb;
+    --red: #fa1617;
+    --white: #ffffff; 
+}
+
+* {
+    border: 0;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+
+.corinthians {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.circle {
+    background-color: var(--black);
+    background-image: repeating-linear-gradient(90deg,
+    transparent, transparent 48px, var(--white) 48px, var(--white) 52px);
+    border-radius: 50%;
+    box-shadow: 1px 5px 15px 5px var(--box-shadow);
+    height: 300px;
+    width: 300px;
+    z-index: 1;
+}
+
+.circle::after,
+.circle::before {
+    background-color: var(--red);
+    content: "";
+    height: 80px;
+    position: absolute;
+    top: 24px;
+    width: 12px;
+}
+
+.circle::before {
+    transform: rotate(-48deg);
+}
+
+.circle::after {
+    right: 0;
+    transform: rotate(48deg);
+}
+
+.mini-circle {
+    background-color: var(--red);
+    border-radius: 50%;
+    height: 40px;
+    margin-bottom: 5px;
+    position: relative;
+    width: 40px;
+}
+
+.mini-circle::before {
+    background-color: var(--white);
+    border-radius: 50%;
+    content: "";
+    height: 26px;
+    left: 7px;
+    position: absolute;
+    top: 7px;
+    width: 26px;
+}
+
+.smile {
+    background-color: var(--red);
+    border-radius: 50%;
+    bottom: -35px;
+    height: 330px;
+    position: absolute;
+    width: 330px;
+}
+
+.smile::before{
+    background-color: var(--white);
+    border-radius: 50%;
+    bottom: 10px;
+    content: "";
+    height: 310px;
+    left: 10px;
+    position: absolute;
+    width: 310px;
+}
+
+.smile::after {
+    background-color: var(--white);
+    content: "";
+    height: 220px;
+    position: absolute;
+    width: 330px;
+}

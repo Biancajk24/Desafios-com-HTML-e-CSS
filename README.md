@@ -1,9 +1,12 @@
-# Grid de Preços :moneybag:
+# Desafio HTML e CSS
 
-### Desafio HTML e CSS
+Repositório criado com a intenção de praticar meus conhecimentos com HTML e CSS, para dar início aos estudos de Javascript de forma contínua.
 
-Foi criado um template de preços com o objeto de aplicar meus conhecimentos em HTML e CSS, assim como treinar o uso da propriedade Flexbox.
+---------------------------------
 
+### Itens
 
-
-![Pricing Table](https://user-images.githubusercontent.com/104093116/178301633-edef5ccc-eb29-463e-96c6-32ee73ccf13f.png)
+:heavy_check_mark: Escudo de Times
+:heavy_check_mark: Grid de Preços
+:heavy_check_mark: Landing Pages
+:heavy_check_mark: Página de Captura

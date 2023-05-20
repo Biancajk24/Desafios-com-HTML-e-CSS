@@ -19,10 +19,10 @@ h1 {
 .container {
   min-height: 80vh;
   display: flex;
-  gap: 20px 60px;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+  gap: 20px 60px;
 }
 
 .card-plans {

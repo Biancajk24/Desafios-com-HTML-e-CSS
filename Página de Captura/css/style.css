@@ -1,0 +1,103 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-image: url(/img/img-02.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header {
+  flex-basis: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 35px;
+}
+
+.btn-login {
+  font-size: 20px;
+  padding: 10px 15px;
+  border-radius: 5px;
+  background-color: transparent;
+  border-color: white;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 25px;
+}
+
+.subtitle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  opacity: 0.9;
+  margin-bottom: 25px;
+}
+
+.mainContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  gap: 30px;
+}
+
+.item {
+  width: 350px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border-radius: 5px;
+}
+
+input {
+  border: 0;
+  outline: 0;
+}
+
+.btn-account {
+  width: 600px;
+  height: 60px;
+  margin: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(57, 152, 190);
+  color: white;
+  font-weight: bold;
+  border-radius: 3px;
+  border: none;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.footer {
+  flex-basis: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  margin-bottom: 20px;
+  opacity: 0.6;
+}
